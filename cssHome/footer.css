@@ -1,0 +1,101 @@
+.footer {
+    width: 100%;
+    min-height: 350px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.footer-for-questions {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.box-h2-footer {
+    height: 150px;
+}
+
+.h2-footer {
+    font-size: 35px;
+    line-height: 130%;
+    color: var(--main-text-color);
+}
+
+.box-a-footer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-footer {
+    width: 60px;
+}
+
+.a-footer {
+    font-family: 'Georgia';
+    font-size: 20px;
+    line-height: 115%;
+    color: var(--main-text-logo-color);
+    text-decoration: none;
+}
+
+.footer-we-waiting {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.box-marker {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-marker {
+    width: 40px;
+}
+
+.box-img-footer {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-footer {
+    width: 300px;
+    height: 310px;
+}
+
+@media (max-width: 345px) {
+    .footer {
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
+    .footer-for-questions {
+        align-items: center;
+    }
+
+    .footer-we-waiting {
+        align-items: center;
+    }
+
+    .h2-footer {
+        font-size: 25px;
+    }
+}

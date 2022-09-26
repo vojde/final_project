@@ -1,0 +1,134 @@
+.pop_up {
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    display: none;
+}
+
+.active_pop_up {
+    display: block;
+}
+
+.pop-up-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-position {
+    width: 730px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pop-up-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-window {
+    width: 100%;
+}
+
+.content-box {
+    width: 630px;
+    height: 350px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content-text {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.font-pop-up {
+    font-family: 'Georgia';
+    color: #000000;
+    left: 1px;
+}
+
+.pop-up-h3 {
+    width: 100%;
+    height: 45px;
+    left: 1px;
+    font-size: 35px;
+    line-height: 130%;
+}
+
+.pop-up-h4 {
+    width: 100;
+    height: 23px;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.pop-up-p {
+    width: 100%;
+    height: 98px;
+    left: 0px;
+    padding-left: 0;
+    font-size: 13px;
+    line-height: 110%;
+}
+
+ul {
+    width: 100%;
+    padding: 10px;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 110%;
+}
+
+li::before {
+    content: "•";
+    color: #F1CDB3;
+    display: inline-block;
+    width: 1em;
+}
+
+@media (max-width: 767px) {
+    .content-position {
+        width: 300px;
+    }
+
+    .content-img {
+        display: none;
+    }
+
+    .content-box {
+        width: 240px;
+        height: 341px;
+        text-align: justify;
+    }
+
+    .content-text {
+        width: 100%;
+        align-items: center;
+    }
+
+    .pop-up-p {
+        height: 112px;
+    }
+}

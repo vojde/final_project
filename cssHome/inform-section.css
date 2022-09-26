@@ -1,0 +1,39 @@
+.inform-section {
+    width: 100%;
+    min-height: 588px;
+    background-color: var(--main-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.img-inform-section {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-text-inform-section {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-inform-section {
+    width: 100%;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.p-inform-section {
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--main-text-content-dim-color);
+}
